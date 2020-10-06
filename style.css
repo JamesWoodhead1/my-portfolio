@@ -1,0 +1,25 @@
+header {
+    color: #5f0f40
+}
+h2 {
+    color: #fdb833
+}
+img {
+    flex-flow: column wrap;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+}
+p {
+    background-color: #89d2dc;
+}
+a:hover {
+    color: #44ffd2;
+}
+a:visited {
+    color: #586f7c
+}
+body {
+    font-family: serif;
+}
