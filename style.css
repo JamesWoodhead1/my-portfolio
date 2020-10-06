@@ -2,7 +2,7 @@ header {
     color: #5f0f40
 }
 h2 {
-    color: #fdb833
+    color: #5f0f40
 }
 img {
     flex-flow: column wrap;
@@ -10,9 +10,7 @@ img {
     width: 400px;
     height: 400px;
     justify-content: center;
-}
-p {
-    background-color: #89d2dc;
+    align-items: flex-start;
 }
 a:hover {
     color: #44ffd2;
@@ -22,4 +20,20 @@ a:visited {
 }
 body {
     font-family: serif;
+    background-color: #89d2dc;
+    align-items: center;
+}
+header {
+    background-color: #e3d7ff;
+}
+footer {
+    background-color: #e3d7ff;
+}
+.button {
+    background-color: #5f0f40;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
 }
