@@ -39,4 +39,8 @@ footer {
 }
 p {
     flex-wrap: wrap;
+    width: 800px;
+}
+div {
+    margin: 20px; 
 }
