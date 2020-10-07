@@ -37,3 +37,6 @@ footer {
     display: inline-block;
     font-size: 40px;
 }
+p {
+    flex-wrap: wrap;
+}
