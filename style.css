@@ -44,6 +44,20 @@ p {
 }
 div {
     margin: 20px; 
+    border: 10px solid #5f0f40;
+    border-radius: 10px;
+}
+nav a {
+    padding: 20px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    background: #5f0f40;
+    color: #cccc00;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
 }
 @media screen and (min-width: 900px) {
     body {
