@@ -5,10 +5,11 @@ h2 {
     color: #5f0f40
 }
 img {
-    flex-flow: column wrap;
+    display: flex;
+    flex-flow: row wrap;
     margin: 10px;
-    width: 400px;
-    height: 400px;
+    width: 33%;
+    height: 33%;
     justify-content: center;
     align-items: flex-start;
 }
@@ -39,7 +40,7 @@ footer {
 }
 p {
     flex-wrap: wrap;
-    width: 800px;
+    width: 100%;
 }
 div {
     margin: 20px; 
