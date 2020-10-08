@@ -31,11 +31,11 @@ footer {
 }
 .button {
     background-color: #5f0f40;
-    border: none;
+    border-radius: 8px;
     padding: 5px 5px 5px 5px;
     text-align: center;
     display: inline-block;
-    font-size: 40px;
+    font-size: 20px;
 }
 p {
     flex-wrap: wrap;
