@@ -1,8 +1,8 @@
 header {
-    color: #5f0f40
+    color: #a777b5
 }
 h2 {
-    color: #5f0f40
+    color: #a777b5
 }
 img {
     display: flex;
@@ -14,24 +14,26 @@ img {
     align-items: center;
 }
 a:hover {
-    color: #cccc00;
+    color: #efc635;
 }
 a:visited {
-    color: #586f7c
+    color: #81a6db
 }
 body {
     font-family: serif;
-    background-color: #89d2dc;
+    background-color: #112270;
     align-items: center;
 }
 header {
-    background-color: #e3d7ff;
+    background-color: #112270;
+    align-items: center;
 }
 footer {
-    background-color: #e3d7ff;
+    background-color: #112270;
+    color: #a777b5;
 }
 .button {
-    background-color: #5f0f40;
+    background-color: #a777b5;
     border-radius: 8px;
     padding: 5px 5px 5px 5px;
     text-align: center;
@@ -45,22 +47,22 @@ p {
 }
 div {
     margin: 20px; 
-    border: 5px solid #5f0f40;
+    border: 5px solid #a777b5;
+    background-color: #f6f6ef;
     border-radius: 10px;
 }
-nav a {
+nav a{
     padding: 20px;
     font-size: 20px;
     width: 100px;
     text-align: center;
-    background: #e3d7ff;
-    border-color: #5f0f40;
+    background: #a777b5;
+    border-color: #a777b5;
     border: 5px;
     margin: 5px;
-    color: #cccc00;
+    color: #efc635;
     border-radius: 10px;
     display: flex;
-    flex-wrap: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -100,12 +102,12 @@ form {
     font: 1em sans-serif;
     width: 300px;
     box-sizing: border-box;
-    border: 1px solid #5f0f40;
+    border: 1px solid #a777b5;
   }
   
   input:focus, 
   textarea:focus {
-    border-color: #5f0f40;
+    border-color: #a777b5;
   }
   
   textarea {

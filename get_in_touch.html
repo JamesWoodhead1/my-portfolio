@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get In Touch</title>
     <script>
-        //this is where the javascript lives
+        document.getElementById('submit').addEventListener("click", function(){alert('Thanks for your message!')}
     </script>
     <header>
     <h1>
@@ -30,10 +30,10 @@
            <textarea id="msg" name="user_message"></textarea>
          </li>
          <li class="button"> 
-             <button type="submit">Submit</button>
+             <button onclick="function()" id="submit" type="submit">Submit</button>
          </li>
          <li class="button">
-             <button type="reset">Clear</button>
+             <button id="reset" type="reset">Clear</button>
          </li>
         </ul>
        </form>
