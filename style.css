@@ -6,10 +6,9 @@ h2 {
 }
 img {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     margin: 10px;
-    width: 33%;
-    height: 33%;
+    width: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
 }
@@ -37,7 +36,10 @@ footer {
     border-radius: 8px;
     padding: 5px 5px 5px 5px;
     text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1fr 1fr;
+    justify-content: space-evenly;
     font-size: 20px;
 }
 p {
@@ -63,7 +65,7 @@ nav a{
     color: #efc635;
     border-radius: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 @media screen and (min-width: 900px) {
@@ -95,6 +97,7 @@ form {
     display: inline-block;
     width: 90px;
     text-align: right;
+    color: #a777b5;
   }
   
   input, 
@@ -115,10 +118,3 @@ form {
     height: 5em;
   }
   
-  .button {
-    padding-left: 90px; 
-  }
-  
-  button {
-    margin-left: .5em;
-  }
